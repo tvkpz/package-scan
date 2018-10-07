@@ -1,4 +1,4 @@
-# DHL-pipline-contextual-method-service
+# Package Information Extraction
 
 ## Service
 To run the service, run ```python dhl_client.py```. The server will listen to port 5008
