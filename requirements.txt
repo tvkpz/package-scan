@@ -12,7 +12,7 @@ keras
 fire
 xlrd
 xlwt
-#python-Levenshtein
+python-Levenshtein
 Flask
 imutils
 psutil
