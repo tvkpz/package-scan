@@ -28,7 +28,7 @@ Python 3 (tested on Python 3.5.4)
 
 Install the dependencies in ```requirements.txt``` and ```tensorflow``` or ```tensorflow-gpu```
 
-# Additional Notes (adapted from DHL-pipline-contextual-method/README.md)
+# Additional Notes 
 
 ## Procedure
 ```model/object_detection.py``` input: raw image from DHL, output: four coordinate for address and bar code
