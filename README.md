@@ -1,4 +1,4 @@
-# Package Information Extraction
+# DHL-pipline-contextual-method-service
 
 ## Service
 To run the service, run ```python dhl_client.py```. The server will listen to port 5008
@@ -28,7 +28,17 @@ Python 3 (tested on Python 3.5.4)
 
 Install the dependencies in ```requirements.txt``` and ```tensorflow``` or ```tensorflow-gpu```
 
-# Additional Notes 
+# Additional Notes (adapted from DHL-pipline-contextual-method/README.md)
+
+## Download Pre-trained Model
+Download ```results.zip``` from the release, unzip, and put the unzipped ```results``` folder inside the project's root folder. ```results``` folder should contain:
+
+* ```frozen_inference_graph.pb```
+* ```label_map.pbtxt```
+* ```pvsh``` folder
+* ```test``` folder
+
+# Additional Notes (adapted from DHL-pipline-contextual-method/README.md)
 
 ## Procedure
 ```model/object_detection.py``` input: raw image from DHL, output: four coordinate for address and bar code
