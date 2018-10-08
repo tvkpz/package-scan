@@ -1,0 +1,6 @@
+state
+district
+zipcode
+name
+phone
+address
