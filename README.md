@@ -23,6 +23,30 @@ The output will be a JSON file in the following format:
 }
 ```
 
+# Inside Virtual Environment
+
+If you inside a virtualenv and installing a module that has some C in it (a Python C extension module)
+but then you get an error similar to this:
+
+building 'Levenshtein' extension
+
+creating build
+
+creating build/temp.linux-x86_64-2.7
+
+gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c Levenshtein.c -o build/temp.linux-x86_64-2.7/Levenshtein.o
+
+Levenshtein.c:99:20: fatal error: Python.h: No such file or directory
+
+compilation terminated.
+
+error: command 'gcc' failed with exit status 1
+
+Solution?
+
+``sudo apt-get update``
+``sudo apt-get install python-dev (so that you can have Python.h inside /usr/include/python2.x/ -> i.e /usr/include/python2.x/Python.h``
+
 ## Dependencies
 Python 3 (tested on Python 3.5.4)
 
