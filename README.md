@@ -46,7 +46,7 @@ Solution?
 
 ```
 sudo apt-get update
-sudo apt-get install python-dev (so that you can have Python.h inside /usr/include/python2.x/ -> i.e /usr/include/python2.x/Python.h
+sudo apt-get install python3-dev (so that you can have Python.h inside /usr/include/python2.x/ -> i.e /usr/include/python2.x/Python.h
 ```
 
 ## Dependencies
