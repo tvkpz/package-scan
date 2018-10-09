@@ -44,8 +44,10 @@ error: command 'gcc' failed with exit status 1
 
 Solution?
 
-``sudo apt-get update``
-``sudo apt-get install python-dev (so that you can have Python.h inside /usr/include/python2.x/ -> i.e /usr/include/python2.x/Python.h``
+```
+sudo apt-get update
+sudo apt-get install python-dev (so that you can have Python.h inside /usr/include/python2.x/ -> i.e /usr/include/python2.x/Python.h
+```
 
 ## Dependencies
 Python 3 (tested on Python 3.5.4)
